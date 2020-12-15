@@ -38,6 +38,7 @@ jobs:
           echo test, and deploy your project.
           
       - name: Publish Release
+      - uses: eregon/publish-release@v1.0.3
   # You may pin to the exact commit or the version.
   # uses: eregon/publish-release@d6aee8c288e653387d895ee64d559fc0dd63339d
       - name: ok
